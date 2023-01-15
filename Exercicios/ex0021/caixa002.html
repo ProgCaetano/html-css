@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group tags</title>
+
+    <style>
+       
+        
+        header{
+            font-family: sans-serif;
+            background-color: azure;
+            padding: 10px;
+            
+        }
+
+        nav{
+            background-color: rgb(231, 230, 230);
+            text-align: center;
+            /* colocando sombra 
+           BOX-SHADOW -  horizontal/vertical/espalhamento/ cor
+           link aula - https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-5-sombra-nas-caixas/
+           
+           */
+
+           box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.425);
+
+
+        }
+
+        a{
+            color: black;
+            font-weight: bolder;
+            margin-right: 15px; 
+        }
+
+        nav > a:hover{ /* apenas com o "a" dentro de nav*/
+            color: brown;
+        }
+        article{ 
+            background-color: rgb(245, 232, 232);
+            
+        }
+
+        
+        main{
+            background-color: rgb(199, 150, 150);
+            
+            padding: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+
+            
+            
+        }
+        aside{
+            background-color: bisque;
+            margin: 1px;
+            
+        }
+
+        footer{
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+        footer:hover{
+            background-color: antiquewhite;
+        }
+
+        div#bola{
+            /* AULA
+            https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-6-caixas-com-vertices-arredondados/*/
+            
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: auto;
+            box-shadow: 10px 1px 1px  1px   black;
+        
+
+        }
+
+        div#bola:hover{
+            background-color: green;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <!--
+    <h1>Tags de agrupamento </h1>
+    <ul>
+        <li>Div - tipo Box-level</li>
+        <li> Span -tipo inline-level </li>
+    </ul>
+    -->
+
+    <header> <!--CABEÇÁRIO-->
+        <h1>Meu site</h1>
+            <nav> <!--MENU-->
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+
+    </header>
+
+    <main> <!--PRINCIPAL-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+                <article>
+
+                </article> 
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni commodi aliquam repudiandae, officia delectus odit corporis accusantium impedit laborum quae, obcaecati ducimus nulla tempora atque soluta nesciunt ab. Cum, eligendi.</p>
+                    <aside>
+                        <p>Artigo escrito por Alguém da Silva</p>
+                    </aside>
+
+                </article>
+
+        </section>
+    </main>
+    <footer> <!--RODAPÉ-->
+        <P>
+            desenvolvido por alysson
+        </P>
+    </footer>
+    <div id="bola">
+
+    </div>
+
+    
+</body>
+</html>

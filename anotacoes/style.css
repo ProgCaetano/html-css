@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    font-family:  serif;
+    background-color: azure;
+    background-image: linear-gradient(to top,rgb(224, 70, 70),white);
+    
+
+}
+
+
+h1{
+    color: rgb(150, 122, 179);
+    
+
+    }
+li{
+    font-weight: 800;
+   
+}

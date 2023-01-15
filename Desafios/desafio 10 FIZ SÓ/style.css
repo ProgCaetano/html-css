@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: rgba(154, 231, 172, 0.836);
+      
+    }
+
+
+
+
+header{
+    background-image: linear-gradient(to bottom, rgb(120, 192, 142),rgb(13, 75, 13)  );
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+
+    }
+
+header > p{
+    font-size: 60%;
+    
+}
+
+menu{
+    text-align: left;
+    padding: 5px;
+    margin: 8px;
+}
+
+menu>a:hover{
+    background-color: rgba(255, 230, 0, 0.514);
+    padding: 10px;
+    color: black;
+}
+
+menu>a{
+    font-size: 60%;
+    margin-right: 10px;
+    color: white;
+   
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    
+        
+}
+
+main>h1,h2{
+    font-family: idroid;
+    color: rgba(63, 109, 63, 0.705);
+  
+}
+
+h2{
+    background-image: linear-gradient(to right, rgb(158, 216, 158), white);
+}
+
+p{
+    text-align: justify;
+    text-indent: 6%;
+    
+}
+
+h3{
+    color: white;
+    background-color:rgba(11, 148, 102, 0.863);
+    padding: 8px;
+    font-size: medium;
+    border-radius: 6% 6% 0% 0%;
+    
+    
+}
+
+.video{
+background-color: rgb(53, 131, 85);
+width: auto;
+margin: auto;
+padding: 2%;
+;
+
+}
+
+
+
+
+div.extra{
+    background-color: rgb(200, 224, 216);
+    border-radius: 6% 6% 6% 6%;
+    margin: 10px;
+    padding: 3px;
+    padding-bottom: 1%;
+    
+}
+
+div.extra > ul{
+    column-width: 300px;
+    margin: auto;
+    padding: 3%;
+}
+
+
+
+footer{ 
+    background-color: rgb(19, 99, 59);
+   
+    padding: 0%;
+    
+}
+
+footer > p{
+    text-align: center;
+    font-size: larger;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <!--Gerar videos em vários formatos é interessante pos cada navegador pode ser compatível com um formato difernte -->
+
+    <h2>Inserindo videos hospedados localmente</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video src="midia/Guitarist.mp4" width="560" controls autoplay loop>Video</video>
+    <!--width coloca o arquivo no tamanho que desejas
+    Lembrar de adicionar control para colcoar o executor do video
+    Seria interessante adicionar mais de um formato para que garanta que em todos os navegadores executem o video desejado como feito nas imagens no exercicio anterior.-->
+
+    <p>Outra forma de adicionar usando o source</p>
+    
+    <video controls autoplay loop width="560>
+        <!--Colcoar na ordem que sera testado para o primeiro que executar.-->
+        <source src="midia/Guitarist.mp4" type="video/mp4">
+        <source src="midia/Guitarist.webm" type="video/webm">
+        <source src="midia/Guitarist.ogg" type="video/ogg">
+        <source src="midia/Guitarist.mp4" type="video/mp4">
+
+    </video>
+
+        <!--Videos do youtube não consome banda do servidor do cliente, então é mais interessante colar o video direto de la na sua página-->
+        <h1>Inserindo vídeos do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A8MO7fkZc5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h1>Inserindo videos do vimeo</h1>
+
+
+
+</body>
+</html>

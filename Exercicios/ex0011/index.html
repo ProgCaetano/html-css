@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    
+    </style>
+    <title>Midias em HTML</title>
+</head>
+<body>
+
+    <h2>Imagens dinâmicas</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumento e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <!--Deve ser sempre na ordem e o codigo sorce sempre acima do comando da imagem principal, exemplo, da menor figura para a maior para que o programa funcione-->
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <!--Largura com 50px a mais para não aparecer a barra de rolagem ao mudar de uma imagem para a outra -->
+        <img src="imagens/fotog.png" alt="imagem flexível">
+         
+
+    </picture>
+
+    <h2>Vamos aprender a reproduzir audios em THML5</h2>
+    <audio src="midia/SadButTrue.mp3" controls autoplay></audio>
+    <!-- formatos aceitos MP3 WAV OGG/ contudo o codigo AUDIO ficou limitado e não esta fincionaod o autoplay-->
+    <p>segunda forma e mais garantida de adicionar aodios</p>
+    <!--Adiciona audio e apaga o sorce,a diciona separadamente como outro codigo-->
+
+    <audio preload="auto" autoplay controls>
+        <!-- voce escolhe quanto do site quer carregar// auto o site carrega tudo, inclusive os audios, correndo o risco de deixar o site leento// metadata carrega os dados basicos e none não carrega nada.-->
+        <source src="midia/SadButTrue.mp3" type="audio/mpeg">
+        <source src="midia/SadButTrue.ogg" type="audio/ogg">
+        <source src="midia/SadButTrue.wav" type="audio/wav">
+        
+
+    </audio>
+        
+    <p>Se não conseguir reproduzir em nenhum desses formatos, infelismente o navegador não suporta repdoduzir audio, clique <a href="midia/SadButTrue.mp3">aqui</a> para baixar</p>
+
+    <!-- Videos compatíveis com sites. mp4 m4v webm ogg -->
+
+    
+</body>
+</html>
