@@ -1,20 +1,39 @@
 @charset "UTF-8";
 
-body{
-    font-family:  serif;
-    background-color: azure;
-    background-image: linear-gradient(to top,rgb(224, 70, 70),white);
-    
+a{
+    color: red;
+    text-decoration: none;
+       
+}
+
+
+
+header{
+    color: rgb(109, 175, 34);
+    text-shadow: 2px 2px 1px black;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0) 
+    );
+    border-radius: 5px;
+}
+
+nav{
 
 }
 
 
-h1{
-    color: rgb(150, 122, 179);
-    
+main{
+        font-family:  serif;
+        background-color: azure;
+        background-image: linear-gradient(to bottom,rgba(224, 70, 70, 0.473),rgba(20, 6, 6, 0.418));
+        height: 100%;
+        width: 800px;
+        margin: auto;
+        padding: 8px;
+        border-radius: 5px;
 
-    }
-li{
-    font-weight: 800;
-   
 }
+
