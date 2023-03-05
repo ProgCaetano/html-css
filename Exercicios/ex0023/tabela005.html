@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela colgroup</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        caption{
+            text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: rgb(141, 231, 141);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <p>Selecionar uma coluna inteira e formata*la</p>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <caption>Cadastro</caption>
+        <header>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </header>
+        <tr>
+            <td>Mafalda</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Jotnalista</td>
+        </tr>
+        <tr>
+            <td>Mafalda</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Jotnalista</td>
+        </tr>
+        <tr>
+            <td>Mafalda</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Jotnalista</td>
+        </tr>
+        <tr>
+            <td>Mafalda</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Jotnalista</td>
+        </tr>
+        <tr>
+            <td>Mafalda</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Jotnalista</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
