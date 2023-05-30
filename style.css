@@ -18,9 +18,24 @@ ul li a{
 }
 
 a{
-      text-decoration: none;  
+    text-decoration: none;  
   color: black;
 }
 
+a:hover{
+    color: red;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: auto;
+    }
+
+footer > a{
+    color: white;
+}
 
 
