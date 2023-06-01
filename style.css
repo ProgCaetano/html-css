@@ -3,18 +3,48 @@
 *{
     padding: 0px;
     border: 0px;
+    margin: 0px;
     font-size: 1.1em;
+
+    
 }
 
 body{
-    width: 500px;
+    width: 600px;
     text-align: center;
     margin: auto;
 }
 
-ul li a{
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+header > h1{
+    color: white;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+h2{
+
+    color: blueviolet;
+    font-size: 1.2em    ;
+    background-color: rgba(228, 16, 16, 0.342);
+}
+
+
+li{
     display: block;
-    border: 2px 2px 2px black;
+    background-image: linear-gradient(rgba(255, 123, 0, 0.144) , rgba(42, 42, 228, 0.219)  );
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    list-style-type: none;
+       
 }
 
 a{
@@ -31,11 +61,13 @@ footer{
     background-color: black;
     color:white;
     padding: 10px;
-    margin: auto;
+    margin-top: 10px;
+    
     }
 
 footer > a{
     color: white;
+    
 }
 
 
