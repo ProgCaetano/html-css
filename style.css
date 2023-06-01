@@ -1,19 +1,11 @@
 @charset "utf-8";
 
-/* paleta de cores
-    #720DFA
-    #2B0BDE
-    #1933F5
-    #0B5BDE
-    #0DA6FA
-*/
-
 :root{
-    color:#720DFA
-    #2B0BDE
-    #1933F5
-    #0B5BDE
-    #0DA6FA
+    --cor1: #720DFA;
+    --cor2: #2B0BDE;
+    --cor3: #1933F5;
+    --cor4: #0B5BDE;
+    --cor5: #0DA6FA;
 }
 *{
     padding: 0px;
@@ -28,7 +20,7 @@
 body{
     
     text-align: center;
-    background-color: rgb(150, 140, 128);
+    background-color: var(--cor1);
     
     
 }
