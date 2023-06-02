@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root{
-    --cor1: #720DFA;
+    --corfundo: #720DFA;
     --cor2: #2B0BDE;
     --cor3: #1933F5;
     --cor4: #0B5BDE;
@@ -20,7 +20,9 @@
 body{
     
     text-align: center;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to top, var(--cor2),var(--cor5));
+
+    /* to left, to top, to botom, 45deg */
     
     
 }
@@ -73,15 +75,17 @@ li{
     border-radius: 10px;
     border-style: double;
     width: 150px;
-    height: 80px;
+    height: 85px;
     margin: 15px;
     list-style-type: none;
+   
     
        
 }
 
 li:hover{
     background-color: azure;
+ 
 }
 
 
@@ -110,7 +114,6 @@ footer{
 
 footer > a{
     color: white;
-    
-}
+    }
 
 
