@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: black ;
+}
+
+div#a {
+    display: inline-block;
+    position: sticky;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+div#b {
+    display:inline-block;
+    background-color: rgb(255, 146, 127);
+    width: 100px;
+    height: 100px;
+}
+
+div#c {
+    display: inline-block;
+    background-color: rgb(155, 127, 255);
+    width: 100px;
+    height: 100px;
+}
