@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento em css</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <h1>Posição Absoluta</h1>
+     <!--
+    <p>div A assume uma posição absoluta em relação ao elemento pai. ficando a frente dos demais elementos, logo os demais elementos ficam sobrepostos.</p>
+    <p>OBS: possition absolute se posiciona em relação a um elemento relative, por padrão o HTML é relative.</p> -->
+   
+
+        <div class="div red absolute  ">div A</div>
+        <div class="div blue fixed">div B <b>fixed</b></div>
+        <div class="div green">div C</div>
+        <h1>Posição Relativa</h1>
+        <div class=" div extra relative"> 
+            
+            <div class="div red absolute  ">div A <b>absolute</b></div>
+            <!--div A foi posicionado em relação ao elemento relativo masi proximo, nesse caso a div extra.-->
+        </div>
+        
+    
+  
+</body>
+</html>
